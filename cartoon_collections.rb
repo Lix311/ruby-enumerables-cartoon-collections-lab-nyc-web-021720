@@ -1,7 +1,7 @@
 
 
 def roll_call_dwarves(array)
-array.each_with_index{|(x,index+1|
+array.each_with_index{|x,index+1|
     puts "#{index} #{x}"
   }
 
