@@ -1,10 +1,10 @@
-require 'pry'
+
 
 def roll_call_dwarves(array)
-  thing = array.each_with_index{|x,index|
+array.each_with_index{|x,index|
     puts "#{index} #{x}"
   }
-binding.pry 
+
 end
 
 def summon_captain_planet# code an argument here
