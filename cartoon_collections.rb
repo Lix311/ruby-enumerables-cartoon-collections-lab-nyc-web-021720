@@ -25,7 +25,7 @@ def find_the_cheese(array)
   #binding.pry 
   index = 0 
     while index < array.length 
-      if array[index].include?(cheese_types)
+      if cheese_types.include?(array[index])
         return array[index]
       end 
     index += 1 
